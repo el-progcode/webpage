@@ -1,2 +1,2 @@
 static page link:
-https://ilinkcareer.static.domains/
+https://ilinkdigcareer.static.domains/
