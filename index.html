@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iLink Job Listings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+        <img src="iLinkLogo.png" alt="iLink Logo" class="logo">
+        <ul class="menu">
+            <li><a href="https://www.ilink-digital.com/">Services</a></li>
+            <li><a href="#">Partnership</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Industries</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li> 
+        </ul>
+    </nav>
+</header>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-overlay">
+      <h1>Welcome to iLink Digital-Where talent meets oppurtunity</h1>
+      <p>We are looking for people to grow with us!</p> </div>
+    <img src="headerimage.jpg" alt="Header Image" class="header-image">
+  </header>
+
+  <!-- Job Listings -->
+  <section class="job-listings">
+    
+    <pp>At iLink Digital, we believe that our success is driven by the talent and dedication of our team members. As we continue to grow and innovate, we are always on the lookout for exceptional individuals who are passionate about making a difference. 
+       Join us on our journey to create meaningful impact and shape the future together.</pp>
+    <h2>Current Job Openings:</h2>
+    <ul>
+      <li>
+        <h3>Data Analyst</h3>
+        <p>Location: Chennai, India</p>
+        <p>Skills: Analytical skills-Data analysis-Power Bi</p>
+        <button class="apply-button" onclick="sendEmail('ilink@career.com')">Apply Now</button>
+      </li>
+      <li>
+        <h3>Business Analyst</h3>
+        <p>Location: Trichy, India</p>
+        <p>Skills: Analytical skills-Communication Skill-Project Management</p>
+        <button class="apply-button" onclick="sendEmail('ilink@career.com')">Apply Now</button>
+      </li>
+      <li>
+        <h3>Software Developer</h3>
+        <p>Location: Chennai, India</p>
+        <p>Skills: Java-C++-GIT</p>
+        <button class="apply-button" onclick="sendEmail('ilink@career.com')">Apply Now</button>
+      </li>
+      <!-- Add more job listings as needed -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <a href="mailto:your.email@gmail.com"><img src="mail_icon.png" alt="Gmail"></a>
+        <a href="https://www.facebook.com/"><img src="facebook-icon.png" alt="Facebook"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function sendEmail(emailAddress) {
+      window.location.href = "mailto:" + emailAddress;
+    }
+  </script>
